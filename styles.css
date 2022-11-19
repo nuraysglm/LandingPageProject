@@ -14,7 +14,7 @@ h1{
 
 body{
   display: grid;
-  grid-template-areas:'header header header''about about about'  'how-it-works how-it-works how-it-works''video video video''become-a-driver become-a-driver become-a-driver''footer footer footer';
+  grid-template-areas:'header header header''about about about''how-it-works how-it-works how-it-works''slider slider slider''video video video''become-a-driver become-a-driver become-a-driver''footer footer footer';
   gap:10px;
   background-color:#FFF9F9;
   margin-top:200px;
@@ -137,6 +137,10 @@ i{
   margin-right:5px;
 
 }
+.span{
+  font-weight: bold;
+  color: #ffb43b;
+}
 
 .smartphone-bckgrnd-img{
   margin-left:15px;
@@ -157,6 +161,7 @@ i{
   overflow: hidden;
   width: 70%;
   padding-top: 39.375%;
+
 }
 
 #video{
@@ -191,7 +196,7 @@ i{
 
   #how-it-works ul{
     display:grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     justify-content:space-between;
   }
 
@@ -210,6 +215,28 @@ i{
      width:60px;
      height:60px;
    }
+
+   #slider {
+     grid-area: slider;
+     display:flex;
+     flex-direction:column;
+     justify-content:space-evenly;
+     margin:20px 0;
+     padding: 0;
+     text-align:center;
+     z-index: -1;
+}
+
+#slider ul{
+  display:grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content:space-between;
+}
+
+ #slider li{
+   list-style:none;
+   margin: 10px 10px;
+ }
 
 #become-a-driver {
   grid-area: become-a-driver;
