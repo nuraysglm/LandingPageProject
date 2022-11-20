@@ -72,13 +72,13 @@ li a{
   justify-content: space-between;
   align-items:start;
   margin:0 auto;
-  padding: 0 20px;
+  padding: 0;
   max-width: 1000px;
   }
 
 #about-the-app{
   margin:0 50px;
-  padding:15px;
+  padding:20px;
 }
 
 #about-the-app ul{
@@ -110,7 +110,7 @@ li a{
 }
 
 .btn-download{
-  margin-right:30px;
+  margin-right:20px;
   background-color: #1fcf87;
   border: none;
   color: white;
@@ -137,6 +137,11 @@ li a{
 i{
   margin-right:5px;
 
+}
+
+.brochure{
+  padding:0 5px 0 0;
+  margin-left: 0
 }
 .span{
   font-weight: bold;
